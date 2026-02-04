@@ -1,0 +1,252 @@
+
+body{
+    font-family:sans-serif;
+    max-width:800px;
+    background-color: #fffdf1;
+    margin:30px auto;
+}
+
+/** Header Styles **/
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b2eae6;
+    padding: 30px 16px 16px 16px;
+    border-bottom: 15px solid #0db4a8;
+}
+.header-title{
+    color:#333;
+    margin:0;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+    gap:16px;
+}
+.header-nav a{
+    text-decoration: none;
+    color:#333;
+    font-weight: bold;
+}
+.header-nav a:hover{
+    background-color: #f0f0f0;
+    color: #007bff;
+}
+.logout-button{
+    padding: 8px 16px;
+    color: #333;
+    font-weight: bold;
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.logout-button:hover{
+    background-color: #f0f0f0;
+    color: #007bff;
+}
+
+/** message Styles **/
+.welcome-message{
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: bold;
+    color:#333;
+    margin: 40px 0 16px 0;
+}
+
+/** main Styles **/
+/* Sign Form Styles */
+.form{
+    max-width: 400px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.enter-button{
+    text-align: center;
+    padding: 6px 12px;
+}
+.button-area button{
+    margin-top: 12px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.button-area button:hover {
+    background-color: #b4d8ff;
+}
+.button-area{
+    text-align:right; 
+}
+ul{
+    list-style:none;
+    padding:0;
+}
+li{
+    margin-bottom:8px;
+}
+h2{
+    color:#333;
+    background-color:#ffdc9a;
+    padding: 25px 16px 10px 16px;
+    border-bottom: 15px solid #ffc400;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:16px;
+}
+.form-group label{
+    margin-bottom:6px;
+    font-weight: bold;
+}
+.form-group input{
+    width:400px;
+    padding:8px;
+    box-sizing: border-box;
+    border:1px solid #ccc;
+    border-radius:4px;
+}
+/* Todo Style */
+.todo-form-container{
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+    padding: 10px;
+}
+.todo-form-control{
+    font-size: 1.2em; 
+    width: 70%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+.todo-list-container{
+    max-width: 600px;
+    margin: 0 auto 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.todo-item{
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    gap:8px;
+    margin-bottom: 8px;
+}
+.todo-checkbox{
+    margin-top: 12px;
+    width:20px;
+    height:20px;
+    cursor: pointer;
+}
+.star-button{
+    display:inline;
+    border:none; 
+    font-size:1.8em;
+    margin-bottom: 4px;
+    color: #ffcc00;
+    background-color: transparent;
+    cursor: pointer;
+}
+.completed-badge{
+    color: indianred;
+    font-weight: bold;
+    margin-left:8px;
+}
+.edit-link{
+    font-size: 0.8em;
+    margin-left: 16px;
+    text-decoration: none;
+    color:#3470fd;
+}
+.edit-link:hover{
+    background-color: #b4d8ff;
+    color: #1d55d8;
+}
+.delete-button{
+    padding: 4px 8px;
+    background-color: #fff4a3;
+    font-weight: normal;
+    color: #1f48ff;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.delete-button:hover {
+    background-color: #f5e98c;
+    color: #133beb;
+}
+/* Todo Edit Syyls */
+.todo-edit-instruction{
+    text-align: center;
+    font-size: 1.2em;
+    color:#616161;
+    margin:30px auto 10px auto;
+}
+.todo-form-edit-control{
+    font-size: 1.2em; 
+    width: 85%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+/* Text Styles */
+.signup-read{
+    text-align: center;
+    color:#333;
+    margin-bottom:20px;
+}
+.massage-success{
+    font-size:1.2em;
+    font-weight: bold;
+    color:green;
+    text-align:center;
+    margin: 16px 0 8px 0;
+}
+.massage-comment{
+    font-size:1.5em;
+    font-weight: bold;
+    color:indianred;
+    text-align:center;
+    margin: 8px 0 16px 0;
+}
+.massage-error{
+    font-size:1.2em;
+    font-weight: bold;
+    color:red;
+    text-align:center;
+    margin: 16px 0;
+}
+.error-list{
+    font-size:1.2em;
+    font-weight: bold;
+    color:red;
+    text-align:center;
+    margin: 16px 0;
+}
+
+/** Footer Styles **/
+footer p{
+    text-align: center;
+    color:#333;
+    background-color: #b2eae6;
+    padding:8px;
+    border-bottom: 8px solid #0db4a8;
+}
