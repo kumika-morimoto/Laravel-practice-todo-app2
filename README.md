@@ -15,9 +15,9 @@ Docker + Laravel Sailを使って開発環境を構築しています。
 
 ## 使用技術
 
-- PHP 8.x
-- Laravel 10
-- MySQL
+- PHP 8.4.20
+- Laravel 12.42.0
+- MySQL 8.4.8
 - Docker / Laravel Sail
 
 ## セットアップ手順
